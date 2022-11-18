@@ -306,8 +306,12 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
+}
+form {
+    margin-top: 60px;  
+    display: grid;
+    grid-gap: 20px;
 }
 .form h1 {
     font-size: 48px;
@@ -319,7 +323,6 @@ body {
 .form__group {
     display: grid;
     grid-gap: 20px;
-    margin-top: 60px;
     text-align: left;
 }
 .form__group div {
